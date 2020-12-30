@@ -27,6 +27,10 @@ class Background_Image extends StatelessWidget {
                   backgroundColor: Colors.transparent,
                   monthCellStyle: DateRangePickerMonthCellStyle(
                       textStyle: TextStyle(color: Colors.white)),
+                  yearCellStyle: DateRangePickerYearCellStyle(
+                      textStyle: TextStyle(color: Colors.white),
+                      leadingDatesTextStyle: TextStyle(color: Colors.white),
+                      disabledDatesTextStyle: TextStyle(color: Colors.white)),
                 )),
           ),
         )));
