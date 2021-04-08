@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 
-void main() => runApp(Background_Image());
+void main() => runApp(BackgroundImagePicker());
 
-class Background_Image extends StatelessWidget {
+class BackgroundImagePicker extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
